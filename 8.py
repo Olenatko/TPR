@@ -55,11 +55,6 @@ qx2 = list()
 
 
 def Pareto(q_x):
-    '''max_q1 = max(result_q1)
-    max_q2 = max(result_q2)
-    result_max_q1.append(max_q1)
-    result_max_q2.append(max_q2)
-    result_qx = list(set(result_max_q1) | set(result_max_q2))'''
     max = 0
     max_prev = 0
     for i in range(0, 10):
